@@ -353,7 +353,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/DestroyOnInvisible.cs"
-"Assets/Scripts/Enemy Movement.cs"
+"Assets/Scripts/enemMov.cs"
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/PlayerControls.cs"
 "Assets/Scripts/PlayerHealth.cs"
