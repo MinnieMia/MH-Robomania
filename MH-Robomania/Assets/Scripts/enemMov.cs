@@ -4,23 +4,31 @@ using UnityEngine;
 
 public class enemMov : MonoBehaviour
 {
-     public float speed;
+    public float yForce;
+    private Rigidbody2D enemyRigidBody;
+
+    void Start()
+    {
+        enemyRigidBody = GetComponent<Rigidbody2D>();
+    }
+
     private void FixedUpdate()
+      
         {
             if (transform.position.x <= -8)
             {
-                speed = speed * -1;
+                
             }
              if (transform.position.x >= 8)
             {
-                speed = speed * -1;
+               
             }
-            float newXPosition = transform.position.x + speed * Time.deltaTime;
-            float newYPosition = transform.position.y;
-            Vector2 newPosition = new Vector2(newXPosition, newYPosition);
-            transform.position = newPosition;
+                 
         }
-    
+      private void OnCollisionEnter2D(Collision2D collision)
+        {
+            
+        }
     
     
 }
